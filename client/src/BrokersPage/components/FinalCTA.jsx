@@ -41,14 +41,14 @@ const FinalCTA = () => {
             href="https://assetsense.in/register"
             className="inline-flex items-center gap-3 rounded-lg bg-blue-600 px-8 py-4 text-base sm:text-lg font-bold text-white shadow-lg transition-all  hover:shadow-xl"
           >
-            Register as Broker
+            Register as Business Partner
             <FaArrowRight className="h-5 w-5 sm:h-6 sm:w-6" />
           </a>
         </div>
 
         {/* Footer Text */}
         <p className="mt-6 text-xs sm:text-sm text-white/70">
-          Join 500+ brokers already growing their business with Asset Sense
+          Join 500+ Business Partners already growing their business with Asset Sense
         </p>
 
       </div>

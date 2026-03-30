@@ -9,6 +9,7 @@ import TrustSection from '../components/TrustSection'
 import FinalCTA from '../components/FinalCTA'
 import Footer from '../components/Footer'
 import AdvancedPackages from '../components/AdvancedPackages'
+import PricingSection from '../components/PricingSection'
 
 const Brokers = () => {
   return (
@@ -17,7 +18,8 @@ const Brokers = () => {
         <BrokerHeroSection/>
         <WhyBrokersChoose/>
         <CoreServices/>
-        <AdvancedPackages/>
+        <PricingSection/>
+        {/* <AdvancedPackages/> */}
         <HowItWorks/>
         <BenefitsSection/>
         <TrustSection/>

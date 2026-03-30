@@ -38,7 +38,7 @@ const WhyBrokersChoose = () => {
         {/* Heading */}
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-            Why Brokers Choose Asset Sense
+            Why Business Partners Choose Asset Sense
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
             Everything you need to grow your brokerage business in one platform.

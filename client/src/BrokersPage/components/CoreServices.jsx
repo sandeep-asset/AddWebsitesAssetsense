@@ -6,6 +6,7 @@ import {
   FaUserCircle,
   FaPenNib,
   FaDoorOpen,
+   FaStar,
 } from "react-icons/fa";
 
 const services = [
@@ -36,14 +37,20 @@ const services = [
   },
   {
     icon: FaPenNib,
-    title: "Blogs for Brokers",
-    description: "Share insights and build authority in the market.",
+    title: "Blogs for Business Partners",
+    description: "SEO-Optimised Blog Content to drive organic traffic to your landing page.",
   },
   {
     icon: FaDoorOpen,
     title: "Meeting Rooms Access",
-    description: "Use meeting rooms at listed coworking spaces to close deals.",
+    description: "Close your deals at any of the Asset Sense Workspaces Coworking center.",
   },
+  {
+    icon: FaStar,
+    title: "Google Business Profile",
+    description: "We help you collect reviews. Builds trust with future clients.",
+  },
+  
 ];
 
 const CoreServices = () => {

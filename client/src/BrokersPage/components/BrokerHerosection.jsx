@@ -14,7 +14,7 @@ const highlights = [
   { icon: FaBuilding, text: "Exclusive Commercial Listings" },
 ];
 
-const flowSteps = ["Broker", "Listings", "Ads", "Leads", "Closed Deals"];
+const flowSteps = ["Business Partner", "Listings", "Google Ads", "Leads", "Closed Deals"];
 
 const BrokerHeroSection = () => {
   return (
@@ -29,8 +29,8 @@ const BrokerHeroSection = () => {
         <div className="text-center">
           
           {/* Heading */}
-          <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
-            Get More Clients & Close More Deals—Without Extra Effort
+          <h1 className="text-3xl font-bold tracking-tight sm:text-3xl md:text-4xl lg:text-5xl">
+            Scale Your Commercial Brokerage Business with <span className="text-yellow-500">More Leads & Faster Closures</span> 
           </h1>
 
           {/* Description */}
@@ -60,7 +60,7 @@ const BrokerHeroSection = () => {
               href="https://assetsense.in/register"
               className="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:shadow-xl"
             >
-              Register as Broker
+              Register as Business Partner
               <FaArrowRight className="h-5 w-5" />
             </a>
           </div>

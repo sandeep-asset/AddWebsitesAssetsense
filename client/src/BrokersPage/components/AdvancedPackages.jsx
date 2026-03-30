@@ -35,6 +35,20 @@ const packages = [
     visual: FaHandshake,
     visualText: "End-to-end deal closure assistance",
   },
+  {
+    name: "Platinum Package",
+    icon: FaCrown,
+    gradient: "from-gray-200 to-gray-100",
+    border: "border-gray-400 hover:border-gray-500",
+    iconColor: "text-gray-700",
+    features: [
+      "Deal closure support for resale properties",
+      "Assistance in final negotiation",
+      "Complete execution support",
+    ],
+    visual: FaHandshake,
+    visualText: "End-to-end deal closure assistance",
+  },
 ];
 
 const AdvancedPackages = () => {

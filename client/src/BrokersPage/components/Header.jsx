@@ -39,7 +39,7 @@ const Header = () => {
               href="https://assetsense.in/register"
               className="rounded-lg bg-blue-400 px-5 py-2 text-sm font-semibold text-white transition hover:bg-yellow-300"
             >
-              Register as Broker
+              Register as Business Partner
             </a>
           </nav>
 
@@ -92,7 +92,7 @@ const Header = () => {
               className="mt-2 w-full rounded-lg bg-yellow-400 px-5 py-3 text-center text-sm font-semibold text-black hover:bg-yellow-300"
               onClick={() => setIsMenuOpen(false)}
             >
-              Register as Broker
+              Register as Business Partner
             </a>
 
           </nav>

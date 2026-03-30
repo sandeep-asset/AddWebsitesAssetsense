@@ -41,11 +41,11 @@ const BenefitsSection = () => {
           {/* Left Content */}
           <div>
             <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-              Benefits for Brokers
+              Benefits for Business Partner
             </h2>
 
             <p className="mt-4 text-base text-gray-600 sm:text-lg">
-              Join thousands of successful brokers who have transformed their business with Asset Sense.
+              Join thousands of successful Business Partner who have transformed their business with Asset Sense.
             </p>
 
             {/* Benefits List */}
@@ -91,7 +91,7 @@ const BenefitsSection = () => {
                     500+
                   </div>
                   <div className="text-xs sm:text-sm text-white/70">
-                    Active Brokers
+                    Active Business Partner
                   </div>
                 </div>
 
@@ -109,7 +109,7 @@ const BenefitsSection = () => {
                     95%
                   </div>
                   <div className="text-xs sm:text-sm text-white/70">
-                    Broker Satisfaction
+                    Business Partner Satisfaction
                   </div>
                 </div>
 
