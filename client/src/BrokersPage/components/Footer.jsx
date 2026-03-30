@@ -68,7 +68,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/search"
+                    href="https://assetsense.in/offices"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     Coworking Spaces
@@ -92,10 +92,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="https://signup.assetsense.in/"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
-                    Dedicated Desks
+                    Business Partners
                   </a>
                 </li>
                 <li>
@@ -125,7 +125,7 @@ const Footer = () => {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href="/about"
+                    href="https://assetsense.in/about"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     About Us
@@ -133,7 +133,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/our-services"
+                    href="https://assetsense.in/our-services"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     Our Services
@@ -165,7 +165,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/contact"
+                    href="https://assetsense.in/contact"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     Contact Us
@@ -229,28 +229,28 @@ const Footer = () => {
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 space-y-2">
             <div className="flex flex-wrap justify-center gap-4 mb-2">
               <a
-                href="/privacy-policy"
+                href="https://assetsense.in/privacy-policy"
                 className="hover:text-white transition-colors text-sm"
               >
                 Privacy Policy
               </a>
               <span className="text-gray-600">|</span>
               <a
-                href="/refund-policy"
+                href="https://assetsense.in/refund-policy"
                 className="hover:text-white transition-colors text-sm"
               >
                 Refund Policy
               </a>
               <span className="text-gray-600">|</span>
               <a
-                href="/terms-conditions"
+                href="https://assetsense.in/terms-conditions"
                 className="hover:text-white transition-colors text-sm"
               >
                 Terms & Conditions
               </a>
               <span className="text-gray-600">|</span>
               <a
-                href="/sitemap"
+                href="/"
                 className="hover:text-white transition-colors text-sm"
               >
                 Sitemap
