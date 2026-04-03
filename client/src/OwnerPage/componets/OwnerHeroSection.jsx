@@ -46,14 +46,17 @@ export function HeroSection() {
 
             {/* Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <button className="text-base px-8 py-3 rounded-lg bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition">
+              <a href="https://assetsense.in/register" target="_blank" rel="noopener noreferrer">
+              <button className="text-base px-8 py-3 cursor-pointer rounded-lg bg-blue-600 text-white flex items-center justify-center hover:bg-blue-700 transition">
                 Start Free Trial
                 <FiArrowRight className="ml-2" />
               </button>
-
-              <button className="text-base px-8 py-3 rounded-lg border border-gray-300 hover:bg-gray-100 transition">
+              </a>
+             <a href="https://assetsense.in/register" target="_blank" rel="noopener noreferrer">
+              <button className="text-base px-8 py-3 cursor-pointer rounded-lg border border-gray-300 hover:bg-gray-100 transition">
                 Learn More
               </button>
+              </a>
             </div>
           </div>
 

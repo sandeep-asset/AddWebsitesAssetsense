@@ -13,7 +13,7 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/business-partner" className="flex items-center space-x-2">
             <div className="rounded-lg flex items-center justify-center">
               <img
                 className="w-35 h-19 sm:w-28 sm:h-14 md:w-40 md:h-20 object-contain"
