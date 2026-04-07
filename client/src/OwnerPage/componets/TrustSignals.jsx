@@ -41,22 +41,7 @@ const TrustSignals = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* TRUSTED BY */}
-        <div className="text-center mb-16">
-          <p className="text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
-            Trusted by Leading Property Owners
-          </p>
-
-          <div className="flex flex-wrap justify-center items-center gap-8 lg:gap-12">
-            {logos.map((logo, index) => (
-              <div
-                key={index}
-                className="text-lg font-semibold text-gray-400 hover:text-gray-600 transition-colors cursor-pointer"
-              >
-                {logo}
-              </div>
-            ))}
-          </div>
-        </div>
+        {/*  */}
 
         {/* HEADING */}
         <div className="text-center mb-12">
