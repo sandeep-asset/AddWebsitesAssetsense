@@ -92,7 +92,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://signup.assetsense.in/"
+                    href="https://signup.assetsense.in/business-partner"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     Business Partners
@@ -100,18 +100,18 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="https://signup.assetsense.in/prop-influencers"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
-                    Day Passes
+                   Prop Influencer
                   </a>
                 </li>
                 <li>
                   <a
-                    href="/"
+                    href="https://signup.assetsense.in/property-owners"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
-                    Conference Rooms
+                    Property Owners
                   </a>
                 </li>
               </ul>
@@ -141,7 +141,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="#pricing"
                     className="text-gray-400 hover:text-white transition-colors text-sm"
                   >
                     Pricing Plans

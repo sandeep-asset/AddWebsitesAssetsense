@@ -1,6 +1,17 @@
 import { FaBuilding, FaUserTie, FaBullhorn } from "react-icons/fa";
+import useSEO from "../hooks/useSEO.js";
 
 export default function HomePage() {
+
+  useSEO({
+  title: "List, Promote & Find Commercial Office Spaces | Coworking, Virtual & Managed Offices | AssetSense India",
+
+  description:
+    "AssetSense helps property owners, brokers, and influencers list, promote, and find coworking spaces, virtual offices, managed offices, and commercial properties across Delhi, Gurgaon, and Pan India. Get direct leads and grow faster with zero brokerage.",
+
+  keywords:
+    "commercial property India, coworking space India, virtual office India, managed office space India, office space Delhi, office space Gurgaon, property listing platform India, real estate brokers India, property influencers India, office space leads India, promote office spaces India, commercial real estate platform India, workspace solutions India",
+});
   const options = [
     {
       title: "Business Partner",

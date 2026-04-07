@@ -11,12 +11,13 @@ const plans = [
     description: "Perfect for getting started",
     adsBudget: "Recommended Ads Budget: ₹5,000/month",
     features: [
-      "30-Day Free Trial",
-      "1-year plan",
+      
+      
       "Property listing",
       "Google Ads management",
       "Lead capture system",
       "CRM access",
+      "Drafting Agreements and E-Signature"
     ],
     cta: "Start Free Trial",
   },
@@ -31,9 +32,10 @@ const plans = [
     adsBudget: "Recommended Ads Budget: ₹10,000/month",
     features: [
       "Everything in Silver",
-      "1-year plan",
-      "Priority support",
+      "Google Business Profile Managment",
+      "Social Media Marketing",
       "Influencer marketing",
+      "Priority support",
       "Enhanced visibility",
       "Advanced analytics",
     ],
@@ -172,9 +174,8 @@ export default function PricingSection() {
                 {/* CTA (Always Bottom) */}
                 <div className="mt-auto">
                   <a
-                    href="https://assetsense.in/register"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#contact"
+                    
                   >
                     <button
                       className={`w-full py-3 cursor-pointer rounded-lg font-medium transition ${

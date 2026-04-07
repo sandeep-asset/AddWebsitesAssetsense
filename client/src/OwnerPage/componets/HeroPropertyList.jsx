@@ -26,14 +26,14 @@ const HeroPropertyList = () => {
             </h1>
 
             <p className="mt-4 sm:mt-6 text-base sm:text-lg lg:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0">
-              Turn your vacant office into a high-yield asset. List on <a className="text-blue-600 underline" href="https://assetsense.in/">Asset Sense Workspaces</a> for direct access to high-demand leads for Virtual Offices, Coworking, and Managed Spaces. Zero commissions, 100% control. 
+              Turn your vacant office into a high-yield asset. List on <span className="text-blue-900 font-medium">Asset Sense Workspaces</span> for direct access to high-demand leads for Virtual Offices, Coworking, and Managed Spaces. Zero commissions, 100% control. {" "}
               <span className="font-semibold text-gray-900">
                 No middlemen, just results.
               </span>
             </p>
 
             <div className="mt-6 sm:mt-8 flex justify-center lg:justify-start">
-              <a href="https://www.assetsense.in/register">
+              <a href="#contact">
                 <button
                   onClick={scrollToForm}
                   className="w-full sm:w-auto flex items-center justify-center gap-2 bg-[#189533] hover:bg-green-700 text-white px-6 py-3 rounded-lg shadow-lg"
@@ -60,7 +60,7 @@ const HeroPropertyList = () => {
             {/* IMAGE FIX */}
             <div className="w-full max-w-lg lg:max-w-none h-[250px] sm:h-[320px] lg:h-[420px] rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/ownerHeroimage.png"
+                src="/owner.png"
                 alt="Property Owner"
                 className="w-full h-full object-cover"
               />

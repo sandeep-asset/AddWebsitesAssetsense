@@ -12,7 +12,7 @@ const waysToEarn = [
     icon: FaChair,
     title: "Coworking Seats",
     description:
-      "Make vacant seats work for you. Transform unused desks into revenue streams.",
+      "Choose between Daily Pass and Monthly Pass for maximum occupancy.",
     highlight: "Per Seat Revenue",
   },
   {

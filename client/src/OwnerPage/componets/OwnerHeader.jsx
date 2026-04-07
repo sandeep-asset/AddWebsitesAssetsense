@@ -43,12 +43,12 @@ export default function Header() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="https://assetsense.in/login" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://assetsense.in/login" target="_blank" rel="noopener noreferrer">
             <button className="text-sm px-4 py-2 bg-white cursor-pointer rounded-md hover:bg-gray-100 transition">
               Log In
             </button>
-            </a>
-            <a href="https://assetsense.in/register" target="_blank" rel="noopener noreferrer">
+            </a> */}
+            <a href="#contact">
             <button className="text-sm px-4 py-2 cursor-pointer rounded-md bg-blue-600 text-white hover:bg-blue-700 transition">
               Start Free Trial
             </button>
@@ -84,14 +84,16 @@ export default function Header() {
               ))}
 
               <div className="flex flex-col gap-2 mt-4 px-4">
-                <a href="https://assetsense.in/login" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://assetsense.in/login" target="_blank" rel="noopener noreferrer">
                 <button className="w-full cursor-pointer text-gray-100 text-sm px-4 py-2 cursor-pointer border rounded-md hover:bg-gray-100 transition">
                     Log In
                 </button>
-                </a>
+                </a> */}
 
-                <a href="https://assetsense.in/register" target="_blank" rel="noopener noreferrer">
-                <button className="w-full text-sm px-4 py-2 cursor-pointer cursor-pointer rounded-md bg-blue-600 text-white hover:bg-blue-700 transition">
+                <a href="#contact">
+                <button
+                 onClick={() => setMobileMenuOpen(false)}
+                 className="w-full text-sm px-4 py-2 cursor-pointer cursor-pointer rounded-md bg-blue-600 text-white hover:bg-blue-700 transition">
                     Start Free Trial
                 </button>
                 </a>

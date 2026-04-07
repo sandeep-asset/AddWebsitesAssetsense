@@ -3,9 +3,9 @@ import { FaShieldAlt, FaUsers, FaBolt, FaAward } from "react-icons/fa";
 const trustFeatures = [
   {
     icon: FaShieldAlt,
-    title: "No Middlemen",
+    title: "Asset Sense Trust",
     description:
-      "Direct connections between property owners and clients. No brokers, no hidden fees.",
+      "Renowned name in Commercial Real Estate since 2012 in Delhi-NCR",
   },
   {
     icon: FaUsers,
@@ -61,7 +61,7 @@ const TrustSignals = () => {
         {/* HEADING */}
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Why Choose <span className="text-blue-900">AssetSense?</span>
+            Why Choose <span className="text-blue-900">Asset Sense?</span>
           </h2>
         </div>
 

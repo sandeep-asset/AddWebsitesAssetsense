@@ -10,8 +10,18 @@ import FinalCTA from '../components/FinalCTA'
 import Footer from '../components/Footer'
 import AdvancedPackages from '../components/AdvancedPackages'
 import PricingSection from '../components/PricingSection'
+import useSEO from '../../hooks/useSEO.js'
 
 const Brokers = () => {
+  useSEO({
+  title: "Find Office Spaces for Clients | Broker Platform for Coworking & Commercial Properties | AssetSense",
+  
+  description:
+    "Join AssetSense as a broker and access premium coworking spaces, managed offices, and commercial properties across Delhi, Gurgaon, and Pan India. Close deals faster with verified listings and direct owner connections.",
+  
+  keywords:
+    "property brokers India, commercial real estate brokers, coworking brokers Delhi, office space brokers Gurgaon, broker platform India, real estate leads India, managed office brokers, virtual office brokers, office leasing brokers India",
+});
   return (
     <div>
         <Header/>

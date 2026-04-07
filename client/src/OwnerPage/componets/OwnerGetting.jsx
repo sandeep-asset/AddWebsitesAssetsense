@@ -17,7 +17,7 @@ const steps = [
   {
     icon: FaShieldAlt,
     title: "Verify Mobile & Profile",
-    description: "Quick OTP process",
+    description: "Quick OTP Process and Aadhar Verification",
   },
   {
     icon: FaFileAlt,
