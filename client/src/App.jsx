@@ -8,6 +8,7 @@ import StickyWatsapp from "./BrokersPage/components/stickywatsapp";
 import OwnersPage from "./OwnerPage/pages/OwnersPage";
 import PropPage from "./Propinfluencer/pages/PropPage";
 import HomePage from "./pages/Home";
+import ScrollTopButton from "./pages/ScrollTopButton";
 
 function App() {
   return (
@@ -15,12 +16,14 @@ function App() {
     <>
     <StickyWatsapp/>
     <Toaster position="top-right" reverseOrder={false} />
+     <ScrollTopButton/>
     <Routes>
       {/* Toast Container */}
        <Route path="/" element={<HomePage/>}/>
        <Route path="/prop-influencers" element={<PropPage/>}/>
        <Route path="/business-partner" element={<Brokers/>}/>
        <Route path="/property-owners" element={<OwnersPage/>}/>
+       
        
     </Routes>
     </>
