@@ -10,27 +10,42 @@ import FinalCTA from '../componets/OwnerFinalCta'
 import WhatWeHandle from '../componets/OwnerWhatwehandle'
 import WhyChooseUs from '../componets/OwnerWhychooseus'
 import Footer from '../../BrokersPage/components/Footer'
+import HeroPropertyList from '../componets/HeroPropertyList'
+import WaysToEarn from '../componets/WaysToEarn'
+import OnboardingSteps from '../componets/OnboardingSteps'
+import TrustSignals from '../componets/TrustSignals'
+import ContactForm from '../componets/ContactForm'
+import WhatsAppButton from '../componets/WhatsAppButton'
 
 const OwnersPage = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <HeroSection />
+      <HeroPropertyList/>
+      <WaysToEarn/>
       <section id="how-it-works">
+      <OnboardingSteps/>
+      </section>
+
+      {/* <HeroSection /> */}
+      {/* <section id="how-it-works">
         <HowItWorks />
-      </section>
-      <section id="features">
+      </section> */}
+      {/* <section id="features">
         <IncomeStreams />
-      </section>
+      </section> */}
       <GoogleTrust />
       <WhatWeHandle />
       <section id="pricing">
         <PricingSection/>
       </section>
       <GettingStarted />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
+      <TrustSignals/>
+      {/* <WhatsAppButton/> */}
       <section id="contact">
-        <FinalCTA/>
+      <ContactForm/>
+
       </section>
       <Footer/>
     </div>
